@@ -1,9 +1,9 @@
-/* * {
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
-
-} */
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
 
 body {
     direction: rtl;
@@ -27,10 +27,12 @@ body {
 }
 
 .time {
+    border: 1px solid white;
     display: flex;
 }
 
 .names {
+    border: 1px solid white;
     display: flex;
 }
 
@@ -40,13 +42,20 @@ body {
 }
 
 .logos {
+    border: 1px solid white;
     display: flex;
-    width: 10%;
-    padding-left: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .logos img {
-    width: 100%;
+    width: 60px;
+    height: auto;
+}
+
+.league {
+    border: 1px solid white;
 }
 
 #dash {

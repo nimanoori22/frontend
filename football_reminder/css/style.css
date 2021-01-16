@@ -9,53 +9,69 @@ body {
     direction: rtl;
 }
 
-.columns {
-    background: gray;
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.column {
-    background: gray;
+.myrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
-
 
 .card {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 100%;
+    justify-content: space-between; */
+    padding: 10px;
+    width: 100%;
+    background: #F0F1FA;
 }
 
 .time {
-    border: 1px solid white;
-    display: flex;
-}
-
-.names {
-    border: 1px solid white;
-    display: flex;
-}
-
-.names h3 {
-    width: 100%;
-    font-size: 4vw;
-}
-
-.logos {
-    border: 1px solid white;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
+.time span {
+    white-space: nowrap;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.names span {
+    margin: 5px;
+}
+
+.logos {
+    display: flex;
+    max-width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
 .logos img {
-    width: 60px;
+    max-width: 100%;
     height: auto;
+    padding: 0 5px;
+    margin-bottom: 10px;
 }
 
 .league {
-    border: 1px solid white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 #dash {
@@ -69,3 +85,6 @@ img {
 }
 
 
+#vs {
+    text-align: justify;
+}
